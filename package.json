@@ -1,0 +1,28 @@
+{
+  "name": "artist-data-aggregator",
+  "version": "0.1.0",
+  "description": "Backend API for aggregating artist data from multiple streaming services.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "artists",
+    "data",
+    "aggregator",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
